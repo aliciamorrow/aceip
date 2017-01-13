@@ -7,6 +7,7 @@ var mainMenu = (function() {
 
 	function init() {
 		$menuItems.on( 'click', open );
+		console.log(document.getElementById("buylink").getAttribute("href"));
 		$listItems.on( 'click', function( event ) { event.stopPropagation(); } );
 	}
 
